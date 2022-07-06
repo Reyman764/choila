@@ -1,0 +1,75 @@
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    border-color:grey;
+}
+th{
+    height: 50px;
+    width: 200px;
+    text-align: center;
+}
+td{
+    text-align: center;
+    padding: 5px;
+}   
+tr:nth-child(even) {
+    background-color:bisque
+}
+tr:hover{
+    background-color: aqua;
+}
+.li-style{
+    display: inline;
+}
+.stick{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.relative{
+    position: relative;
+    left: 30px;
+}
+.fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.ul{
+    list-style-type: none;
+}
+.Main-menu{
+    background-color: aqua;
+    padding: 15px;
+}
+.Main-menu a{
+    text-decoration: none;
+    color: white;
+}
+.Main-menu a:hover{
+    background-color: blueviolet;
+    padding:17px;
+}
+body{
+    margin: 0 10px;
+}
+footer{
+    text-align: center;
+}
+.images{
+    height: 450px;
+    width: 49%;
+}
+#INGREDIENTS table{
+    margin-left: auto;
+    margin-right: auto;
+}
+#INGREDIENTS{
+    background-color: antiquewhite;
+}
+#METHOD{
+    background-color:blue;
+}
+#ITEMS{
+    background-color: blueviolet;
+}
