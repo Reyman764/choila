@@ -1,7 +1,11 @@
+.image{
+    height: 450px;
+    width: 49%;
+}
 table, th, td {
     border: 2px solid black;
     border-collapse: collapse;
-    border-color:grey;
+    border-color:blueviolet;
 }
 th{
     height: 50px;
@@ -13,22 +17,21 @@ td{
     padding: 5px;
 }   
 tr:nth-child(even) {
-    background-color:bisque
+    background-color:rgb(89, 133, 118)
 }
 tr:hover{
-    background-color: aqua;
+    background-color: rgb(50, 250, 250);
 }
 .li-style{
     display: inline;
+}
+footer{
+    text-align: center;
 }
 .stick{
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-}
-.relative{
-    position: relative;
-    left: 30px;
 }
 .fixed{
     position: fixed;
@@ -38,37 +41,30 @@ tr:hover{
 .ul{
     list-style-type: none;
 }
-.Main-menu{
-    background-color: aqua;
+.main-menu{
+    background-color:rgb(107, 110, 112);
     padding: 5px;
 }
-.Main-menu a{
+.main-menu a{
     text-decoration: none;
     color: white;
 }
-.Main-menu a:hover{
+.main-menu a:hover{
     background-color: rgb(199, 144, 250);
-    padding:27px;
+    padding:25px;
 }
 body{
     margin: 0 10px;
-}
-footer{
-    text-align: center;
-}
-.images{
-    height: 450px;
-    width: 49%;
 }
 #INGREDIENTS table{
     margin-left: auto;
     margin-right: auto;
 }
 #INGREDIENTS{
-    background-color: antiquewhite;
+    background-color: rgb(248, 214, 170);
 }
-#METHOD{
-    background-color:rgb(119, 119, 252);
+#STEPS{
+    background-color:rgb(179, 179, 248);
 }
 #ITEMS{
     background-color: rgb(205, 167, 241);
