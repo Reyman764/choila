@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document</title>
+        <style>
+            ul{
+                list-style-type: none;
+                background-color: rgb(62, 65, 65);
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+            li{
+                float: left;
+            }
+            .dropdown-content{
+                display: none;
+                position: absolute;
+            }
+           
+            li a, .dropbtn{
+            display: block;
+            color: aqua;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+
+            }
+            li a:hover, .dropbtn:hover{
+                background-color: rgb(90, 92, 88);
+            }
+            li.dropdown {
+            display: inline;
+            }
+            .dropdown-content{
+                display: none;
+                position: absolute;
+                background-color: rgb(121, 98, 68);
+                min-width: 105px;
+                box-shadow: 0px 8px 16px 0px white;
+            }
+            .dropdown:hover .dropdown-content {
+                display: block;
+                background-color: rgb(92, 90, 89);
+            }
+            .images{
+                width: 49%;
+                height: 350px;
+            }
+            .stick {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            }
+            body{
+                background-color: antiquewhite;
+            }
+            #overflow {
+            padding: 15px;
+            width: 90%;
+            height: 100px;
+            border: 1px solid black;
+            overflow: auto;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="stick">
+        <div class="main-menu">
+        <nav>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#INTRODUCTION">INTRODUCTION</a></li>
+                <li><a href="#IMPORTANCE">IMPORTANCE</a></li>
+                <li><a href="#CONCLUSION">CONCLUSION</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">SETTINGS</a>
+                    <div class="dropdown-content">
+                    <a href="#">PROFILE</a>
+                    <a href="#">SIGN IN</a>
+                    <a href="#">LOG OUT</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        </div>
+        </div>
+        <h1 style="text-align: center;"><b>TOURISM IN NEPAL</b></h1>
+        <div id="INTRODUCTION">
+        <h2><b><u>INTRODUCTION</u></b></h2>
+        <p>  Our country Nepal is rich in natural beauties gifts, resources and wonders. There are many places and things of cultural, historical and religious importance. Mt. Everest, the highest peak in the world, lies in Nepal. We are proud of it. The snowcapped mountain peaks, beautiful water resources, the green forests of hypnotic beauty, flora and fauna, etc. tempt many tourists every year.Nepal is known as a suitable place to promote tourism. The nature has given us many things which are liked by tourists. Some tourists come here to enjoy the natural beauties and wonders. Some of them visit our country for trekking and climbing mountains. Some want to learn something about our history, culture, religion and so on. We can see that some tourists come here to enjoy their holidays.</p>
+        <img src="img/tourism.jpg" class="images">
+        <img src="img/tourism1.jpg" class="images">
+        </div>
+        <div id="IMPORTANCE">
+        <h2><b><u>IMPORTANCE OF TOURISM IN NEPAL</u></b></h2> 
+        <p>Tourism plays a significant role in Nepal. We can get many advantages from it. Firstly, we can earn foreign currency which can be use for our development. Many people have got employed in the offices belonging to tourism. Thus, it helps to lessen the problems of unemployment. Tourists buy our goods, curios and native articles of our country. By the result, our cottage industries can get benefited. Tourism helps our hotel industry. They want to live in good hotels. Many expensive and good hotels have been providing services to them. Similarly, many tourist guides and porters are employed in it.  We can learn their languages, cultures and traditions from the tourists. They also learn many things from us. The fame and glory of our nation get widened because they can be their achievements to their friends and relatives. Our country Nepal will be known to the rest part of the world. When they observe our good cultures, traditions and things, they expose them to their country.</p>
+        </div>
+        <h2><b><u>CONCLUSION</u></b></h2>
+        <div id="CONCLUSION">
+        <div id="overflow">
+            Thus, there are a few disadvantages of tourism. Some of the communicable diseases can be spread by tourists; it is the worst effect of it. Because of tourism, some of the beauty spots are getting polluted. We can see many bottles, plastic bags and others even at the highest peak, Mt. Everest. Some of the tourists can be criminal. They can commit crimes here.
+            There are some problems in the field of tourism in Nepal. The major problems are transportation and security. Most of the beauty spots are situated in remote areas. We have not built roads to go to all these places yet. We have to depend on only air services. Similarly, the problem of security has reduced the number of the tourists. There are not standard hotels in the remote areas. We have to provide all eh facilities to the tourists to promote tourism in Nepal.
+            We have to try to promote tourism in Nepal. All the sectors concerned are expected to give high priority to promote it. The government should provide transportation facilities and security to the tourists. Then, more and more tourists will be tempted to visit our motherland.
+        </div>
+        </div>
+    </body>
+</html>
